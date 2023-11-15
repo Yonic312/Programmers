@@ -7,7 +7,7 @@ class Solution {
             if (denom % i == 0 && numer % i == 0) {
                 denom /= i;
                 numer /= i;
-            }
+            } // 기약변수 만들 때 여러 번 나눌 수 있으니 Break X
         }
         int[] result = {numer, denom};
         return result;
