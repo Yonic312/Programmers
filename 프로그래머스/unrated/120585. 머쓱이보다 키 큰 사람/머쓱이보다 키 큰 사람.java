@@ -1,5 +1,5 @@
 class Solution {
-    public int solution(int[] array, int n) { // solution이라는 함수 안에 (매개변수)
+    public int solution(int[] array, int n) { // solution이라는 함수 안에 (매개변수) 
         int cnt = 0;
 
         for (int num : array) {
