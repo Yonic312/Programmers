@@ -1,5 +1,5 @@
 class Solution {
-    public int solution(int[][] dots) { // solution이라는 함수 안에 (매개변수)
+    public int solution(int[][] dots) { // solution이라는 함수 안에 (매개변수)   
         int result = 0;
         int minX = dots[0][0];
         int minY = dots[0][1];
